@@ -5,7 +5,7 @@ from sqlalchemy.sql import func
 from sqlalchemy.types import DateTime
 from pydantic import BaseModel
 
-from app.db.session import Base
+from db.session import Base
 
 # User Table
 class User(Base):
